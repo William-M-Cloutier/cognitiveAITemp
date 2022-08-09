@@ -76,7 +76,7 @@ namespace CognitiveABM.Perceptron
             int previousLayerHeight = NumberOfInputs;
 
             // should only run twice
-            for (int layerNumber = 0; layerNumber < _totalLayers - 1; layerNumber++)
+            for (int layerNumber = 0; layerNumber < _totalLayers; layerNumber++)
             {
 
                 // get how many nuerons are in the current layer
